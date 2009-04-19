@@ -1,5 +1,8 @@
 Revision history for Bot-BasicBot-Pluggable-Module-Eliza
 
+0.03	19.04.2009 22:41
+	Failing tests due wrong paths in t/01basic.t
+
 0.02    16.04.2009 16:54
         First version, released on an unsuspecting world.
 

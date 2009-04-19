@@ -1,6 +1,6 @@
 ---
 name: Bot-BasicBot-Pluggable-Module-Eliza
-version: 0.02
+version: 0.03
 author: []
 abstract: Eliza for Bot::BasicBot::Pluggable
 license: perl
@@ -14,7 +14,7 @@ build_requires:
 provides:
   Bot::BasicBot::Pluggable::Module::Eliza:
     file: lib/Bot/BasicBot/Pluggable/Module/Eliza.pm
-    version: 0.02
+    version: 0.03
 generated_by: Module::Build version 0.3
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
