@@ -4,7 +4,7 @@ use Module::Build;
 
 my $builder = Module::Build->new(
     module_name         => 'Bot::BasicBot::Pluggable::Module::Eliza',
-    dist_author_from    => 'lib/Bot/BasicBot/Pluggable/Module/Eliza.pm',
+    dist_author         => 'Mario Domgoergen <dom@math.uni-bonn.de>',
     license             => 'perl',
     requires            => { 
 	'Chatbot::Eliza'           => 0, 

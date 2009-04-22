@@ -15,6 +15,8 @@ my $bot = Bot::BasicBot::Pluggable->new(
   store    => $store
 );
 
+print "$Bin\n";
+
 
 ok(my $module = $bot->load('Eliza'),'loading module via load()');
 

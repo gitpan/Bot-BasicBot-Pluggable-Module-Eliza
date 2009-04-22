@@ -7,7 +7,7 @@ use Chatbot::Eliza;
 
 use base qw(Bot::BasicBot::Pluggable::Module);
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 sub init {
 	my ($self) = shift;

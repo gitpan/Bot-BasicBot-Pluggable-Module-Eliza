@@ -1,5 +1,8 @@
 Revision history for Bot-BasicBot-Pluggable-Module-Eliza
 
+0.04	22.04.2009 9:24
+	Forget to add the testscripts to MANIFEST
+
 0.03	19.04.2009 22:41
 	Failing tests due wrong paths in t/01basic.t
 
