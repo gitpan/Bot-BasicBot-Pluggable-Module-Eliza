@@ -8,7 +8,7 @@ WriteMakefile
           'VERSION_FROM' => 'lib/Bot/BasicBot/Pluggable/Module/Eliza.pm',
           'PREREQ_PM' => {
                            'Test::More' => 0,
-                           'Bot::BasicBot::Pluggable' => '0.5',
+                           'Bot::BasicBot::Pluggable' => '0.6',
                            'Chatbot::Eliza' => 0
                          }
         )

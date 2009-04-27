@@ -7,13 +7,14 @@ use Chatbot::Eliza;
 
 use base qw(Bot::BasicBot::Pluggable::Module);
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 sub init {
 	my ($self) = shift;
 	my %args;
 	$args{'scripfile'} = $self->get("user_scriptfile") if defined($self->get("user_scriptfile"));
 	$self->{eliza} = Chatbot::Eliza->new(%args);
+	return;
 }
 
 sub set {
@@ -34,6 +35,7 @@ sub set {
 		## just do the normal stuff unless scriptfile is called
 		$self->SUPER::set($key,$val);
 	}
+	return;
 }
 
 sub unset {
@@ -43,6 +45,7 @@ sub unset {
 		## We're just reloading the default script here
 		$self->{eliza} = Chatbot::Eliza->new();
 	};
+	return;
 }
 
 sub help {
@@ -54,6 +57,7 @@ sub fallback {
 	if ($message->{address}) {
 		return $self->{eliza}->transform($message->{body});
 	}
+	return;
 }
 
 1; # End of Bot::BasicBot::Pluggable::Module::Eliza

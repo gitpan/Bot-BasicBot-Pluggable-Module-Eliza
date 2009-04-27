@@ -8,7 +8,7 @@ my $builder = Module::Build->new(
     license             => 'perl',
     requires            => { 
 	'Chatbot::Eliza'           => 0, 
-	'Bot::BasicBot::Pluggable' => 0.50,
+	'Bot::BasicBot::Pluggable' => 0.60,
     },
     build_requires      => { 'Test::More'     => 0, },
     add_to_cleanup      => [ 'Bot-BasicBot-Pluggable-Module-Eliza-*' ],
